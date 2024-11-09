@@ -204,3 +204,26 @@ MYSQL CLAUSES:-
 ==================================================================================================================================================================
 AGGREGATE FUNCTIONS:-
 ======================
+1) MIN() :- The MIN() function returns smallest value of the column.
+  egg:- select MIN(salary) from employee;
+
+2) MAX() :- The MAX() function returns largest value of the column.
+   egg:- select MAX(salary) from employee.
+
+3) COUNT() :- The COUNT() function returns the number of rows which matches a criteria.
+   egg:- select count(*) from employee where salary >=3000;
+
+4) AVG() :- The AVG() function  returns average values of a numeric column.
+   egg:- select AVG(col name) from table name where condition;
+
+5) SUM() :- The SUM() function returns total value of a Numeric column.
+   egg:- select sum(salary) from table name where condition;
+
+6) DISTINCT() :- The DISTINCT() function returns unique data from a table.
+   egg:- select DISTINCT(*) from table name;
+
+7)STDEV(expression)
+8)STDEVP(expression)
+==================================================================================================================================================================
+MySQL JOINS:-
+=============
